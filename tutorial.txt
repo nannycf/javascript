@@ -34,9 +34,11 @@ Comandos básicos do git:
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
 git clone url_do_repositório (clonar repositório)
+git status (verificar o status do repositório local)
 git add . (adiciona ao reposiório local)
 git commit-m (documentar as alterações)
 git push (enviar ao repósitorio github)
+git pull (sincronizar as informações do repositório) no PC 
 
 Gerar token GitHub
 1) Settings
