@@ -47,7 +47,15 @@ Gerar token GitHub
 4) Gerar o token selecionando tudo, guardar o token
 
 
-
+__________________________________________
+Boas práticas na programação
+1) Cabeçalho de documentação:
+/**
+nome do projeto 
+descrição da classe / função
+@author Ariane Cristina
+@version 1.0
+*/
 
 
 
