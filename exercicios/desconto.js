@@ -1,26 +1,21 @@
 /**
- * Calculo do valor do desconto
- * @author Ariane Cristina
+ * Cálculo do valor do desconto
+ * @author Professor José de Assis
  */
 
-const input = require ('readline-sync')
+const input = require('readline-sync')
 
-// variaveis
 let totalDesconto, total, desconto
 
 console.clear()
-console.log ("Calculo do valor do desconto")
+console.log("Cálculo do valor do desconto")
 
 //entrada
-
-total = Number(input.question("digite o valor da compra: "))
-desconto = Number(input.question("digite o valor do desconto em %: "))
+total = Number(input.question("Digite o valor da compra: "))
+desconto = Number(input.question("Digite o valor do desconto em %: "))
 
 //processamento
 totalDesconto = total - ((desconto * total) / 100)
 
-
-//saída
-console.log (`total com Desconto: R$ ${totalDesconto.toFixed(2)}`)
-
-
+//saida
+console.log(`total com desconto: R$ ${totalDesconto.toFixed(2)}`)

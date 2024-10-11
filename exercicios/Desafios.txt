@@ -1,0 +1,22 @@
+Desafio 1: "A hora do código"
+https://hourofcode.com/br/learn
+Escolher um desafio "A hora do código", fazer e ao final salvar o certificado, postar no linkedin e marcar o professor: @professorjosedeassis (caso não tenha linkedin, mostrar ao professor)
+
+Desafio 2: "Exercício de lógica" (individual ou dupla)
+Escolher um exercício da lista de exercícios e desenvolver o programa no scratch e no JavaScript
+Obs: Um exercício diferente por dupla ou individual.
+
+DEsaio: Etanol x Gasolina
+Desenvolver um APP para verificar qual combustível é mais vantajoso abastecer.
+O etanol será mais vantajoso se o seu preço for 70% ou menos do que o da gasolina
+
+//variaveis
+etanol, Gasolina
+//entrada
+etanol, Gasolina
+
+//processamento e saídaif (etanol < 0.7 * gasolina) {
+    //abastecer com etanol
+} else {
+    //abastecer com gasolina
+}

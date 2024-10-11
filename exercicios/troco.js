@@ -1,24 +1,26 @@
 /**
- * Calculadora de troco
- * @author Ariane Cristina
+ * Calcular o troco de uma compra
+ * @author Professor José de Assis
  */
 
-const input = require ('readline-sync')
+const input = require('readline-sync')
 
-//variaveis
-let troco, valorPago, total
-
-
+let total, valorPago, troco
 
 console.clear()
-console.log("Calculo valor do troco")
+console.log("Calcular o troco de uma compra")
 
 //entrada
-valorPago = Number(input.question("digite o valor pago: "))
-total = Number(input.question("digite o valor da compra: "))
+total = Number(input.question("Qual o valor da compra? "))
+valorPago = Number(input.question("Qual o valor pago? "))
 
 //processamento
-troco= valorPago - total
+troco = valorPago - total
 
-//saída
-console.log (`troco: R$ ${troco.toFixed(2)}`)
+//saida
+console.log(`Valor do troco: R$ ${troco.toFixed(2)}`)
+
+
+
+
+

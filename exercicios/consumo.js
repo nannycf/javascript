@@ -1,24 +1,22 @@
 /**
- * Calculo do consumo de combustível 
- * @author Ariane Cristina
+ * Cálculo do consumo de combustível
+ * @author Professor José de Assis
  */
 
 const input = require ('readline-sync')
-//variaveis
 
+// variáveis
 let distancia, litros, consumo
-console.clear ()
-console.log ("Cálculo do consumo de combustível")
 
-//entrada
-distancia = Number (input.question ("Distancia de litros de combustível:"))
+console.clear()
+console.log("Cálculo do consumo de combustível")
+
+// entrada
+distancia = Number(input.question("Distancia percorrida: "))
+litros = Number(input.question("Quantidade de litros de combustivel: "))
 
 // processamento
 consumo = distancia / litros
 
-//saída
-
-console.log (`consumo do veículo: ${consumo.toFixed (1)} km/l`)
-
-
-
+// saída
+console.log(`Consumo do veículo: ${consumo.toFixed(1)} km/l`)
